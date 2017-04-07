@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.autoview.TweActivity">
+
+    <com.example.administrator.autoview.VeiwSet
+        android:id="@+id/sv"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:tv="详情页"
+        app:img="@mipmap/ic_launcher"/>
+    <com.example.administrator.autoview.DrawView
+        android:id="@+id/dv"
+        android:layout_below="@id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
